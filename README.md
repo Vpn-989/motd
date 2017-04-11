@@ -1,7 +1,7 @@
 # Custom MOTD
 | | |
 | ---- | ---- |
-| Version | 0.3.9 (April 2017)|
+| Version | 0.3.10 (April 2017)|
 | By | Mun ~ Cameron Munroe |
 | Website | https://www.cameronmunroe.com |
 | Git | https://git.enjen.net/munzy/custom_motd |
@@ -17,7 +17,18 @@ Custom MOTD is a addition to the regular MOTD system built into most Linux serve
 # Dependencies
 
   - vnstat
-  - wget  
+  - wget
+ 
+# Quick Install  
+
+ Debian based.
+ ``` wget -qO- https://raw.githubusercontent.com/Munroenet/custom_motd/master/inst/deb.sh | bash ```
+ 
+ Centos based.
+ ``` wget -qO- https://raw.githubusercontent.com/Munroenet/custom_motd/master/inst/centos.sh | bash ```
+ 
+ Update custom_motd.
+ ``` wget -qO- https://raw.githubusercontent.com/Munroenet/custom_motd/master/inst/upgrade.sh | bash ```
 
 # Global Install
 
@@ -88,3 +99,9 @@ The bandwidth info comes from vnstat. Vnstat is an amazing little tool and will 
  If you find a bug please post on this forum: https://qwdsa.com/c/forums/bug-reports.18/
  
  Give me as much detail as possible so I can diagnose the issue quicker and faster.
+ 
+# Donations
+
+If you like my projects, and work then please donate! 
+
+https://www.cameronmunroe.com/coffee/
